@@ -34,6 +34,7 @@ export const CharacterList = () => {
 
   const handleSearch = async (e) => {
     e.preventDefault()
+    setPage(1)
     await refresh()
   }
 
