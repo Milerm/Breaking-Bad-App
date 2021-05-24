@@ -1,0 +1,15 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.h {
+  &-100p {
+    height: 100%;
+  }
+}
+
+.pagination-center {
+  justify-content: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
