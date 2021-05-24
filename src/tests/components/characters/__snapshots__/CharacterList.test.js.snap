@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <CharacterList /> debe mostrar el componente correctamente 1`] = `
+<div>
+  <h1>
+    Characters
+  </h1>
+  <Container
+    fluid={true}
+  >
+    <Row
+      noGutters={false}
+      xs={1}
+    >
+      <ForwardRef
+        className="pagination-center"
+      >
+        <First
+          disabled={true}
+          onClick={[Function]}
+        />
+        <Prev
+          disabled={true}
+          onClick={[Function]}
+        />
+        <Next
+          disabled={false}
+          onClick={[Function]}
+        />
+        <Last
+          disabled={false}
+          onClick={[Function]}
+        />
+      </ForwardRef>
+    </Row>
+    <Row
+      lg={5}
+      md={4}
+      noGutters={false}
+      sm={3}
+      xs={2}
+    >
+      <p>
+        No tenemos personajes disponibles
+      </p>
+    </Row>
+  </Container>
+</div>
+`;

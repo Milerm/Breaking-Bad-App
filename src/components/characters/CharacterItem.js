@@ -2,6 +2,7 @@ import React from 'react'
 import { Card, Col, Spinner } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { useFetch } from '../../hooks/useFetch'
+import PropTypes from 'prop-types'
 
 export const CharacterItem = ({ character }) => {
   const { data, loading, hasError } = useFetch(`/quote?author=${character.name}`)
@@ -33,4 +34,8 @@ export const CharacterItem = ({ character }) => {
       </Card>
     </Col>
   )
+}
+
+CharacterItem.propTypes = {
+  character: PropTypes.object.isRequired
 }
